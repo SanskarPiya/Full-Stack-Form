@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM | Sanskar Piya Project</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form method="post" action="/login">
+      <div class="form-body">
+        <p class="heading">Traditional Form</p>
+
+        <div class="form-input-section">
+          <div class="form-section">
+            <label>Enter Your Name:</label>
+            <input
+              name="name"
+              placeholder="Your Name"
+              type="text"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+          <div class="form-section">
+            <label>Enter Your Email:</label>
+            <input
+              name="contact_email"
+              placeholder="Your Email"
+              type="email"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+          <div class="form-section">
+            <label>Your Message:</label>
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              type="text"
+              autocomplete="off"
+              required
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="submit-btn-container">
+        <button type="submit" class="submit-btn">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
